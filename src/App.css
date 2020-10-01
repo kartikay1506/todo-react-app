@@ -1,8 +1,17 @@
-.container {
-  padding: 0 1rem;
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-.btn {
+.App .container {
+  padding: 0;
+}
+
+.App header {
+  padding: 50px 0;
+}
+
+.App .btn {
   display: inline-block;
   border: none;
   background: #555;
@@ -11,6 +20,43 @@
   cursor: pointer;
 }
 
-.btn:hover {
+.App .btn:hover {
   background: #666;
 }
+
+.App .AddForm {
+  margin: 30px;
+}
+
+.App .todo-item {
+  margin: 0 30px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.App .todo-item input {
+  background: #666;
+}
+
+.App .todo-item p {
+  padding: 10px;
+}
+
+.App .todo-item button {
+  background: #fa4040;
+  color: #fff;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.App .todo-item:hover {
+  background: #555;
+  color: white;
+}
+/*# sourceMappingURL=App.css.map */
